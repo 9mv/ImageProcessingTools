@@ -1,22 +1,22 @@
 %
 %
-% Aleix MartÌnez Vinent
+% Aleix Mart√≠nez Vinent
 % 12-11-2019
 % 
 %
 % 1. Llegir imatge
 % 2. Dos arrays randoms uniformes entre 0 i 1 (de tants valors com files tengui
-% imatge). Un serveix per detectar llindar i un altre per desplaÁament
-% 3. ElecciÛ de percentatge de error. Aquell percentatge ser‡ llindar de
+% imatge). Un serveix per detectar llindar i un altre per despla√ßament
+% 3. Elecci√≥ de percentatge de error. Aquell percentatge ser√† llindar de
 % l'array.
-% 4. Bucle que desplaÁa (valor de l'array * 100 pÌxels) cap a l'esquerra a aquelles files que es superi el llindar 
+% 4. Bucle que despla√ßa (valor de l'array * 100 p√≠xels) cap a l'esquerra a aquelles files que es superi el llindar 
 %
 %
 
-LL = 0.5;     % Llindar de rand1 per desplaÁar aquella fila rand1(x). Es modifica si Ès major
-Q = 500;      % Grau de desplaÁament (>100)
-A = 0;        % Activador de desplaÁament bidireccional
-D = 1;        % D=1 significa desplaÁament cap a la dreta en cas de A=1. D=0, esquerra.
+LL = 0.5;     % Llindar de rand1 per despla√ßar aquella fila rand1(x). Es modifica si √©s major
+Q = 500;      % Grau de despla√ßament (>100)
+A = 0;        % Activador de despla√ßament bidireccional
+D = 1;        % D=1 significa despla√ßament cap a la dreta en cas de A=1. D=0, esquerra.
 
 % 1
 [file,path] = uigetfile('*.jpg');
